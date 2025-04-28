@@ -1,0 +1,17 @@
+.main-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .section h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
