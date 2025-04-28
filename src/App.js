@@ -1,3 +1,4 @@
+// GRUPO 7 
 // NOMBRES Y LEGAJOS
 // Paulo Ledesma - 61035
 // Santiago Ledesma - 61115
@@ -5,7 +6,7 @@
 // Leonardo Ramirez - 61084
 // Santiago Navarro - 61205
 
-import './styles/App.css';
+import './styles/App.css'; // Se agregó un diseño básico a la página con Css
 import Homepages from './pages/Homepages';
 
 function App() {
@@ -18,12 +19,14 @@ function App() {
     { nombre: 'Jorge', edad: 30 },
     { nombre: 'Cristian', edad: 30 }
   ];
+   // Definimos las tres variables y sus ejemplos 
 
   return (
     <div className="App">
       <Homepages nombre={nombre} persona={persona} grupo={grupo} />
     </div>
   );
+  // Pasamos las variables por props al componente Home.jsx sin destructurar
 }
 
 export default App;

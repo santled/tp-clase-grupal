@@ -8,7 +8,7 @@ const Main = ({ nombre, persona, grupo }) => {
         <h2>Nombre recibido:</h2>
         <p>{nombre}</p>
       </section>
-
+    
       <section className="section">
         <h2>Datos de la persona:</h2>
         <ul>
@@ -32,5 +32,6 @@ const Main = ({ nombre, persona, grupo }) => {
     </main>
   );
 };
+// Mostramos el nombre, desplegamos una lista con los datos de la persona y su asistencia, y recorremos el array grupo con .map() para mostrar los datos de cada intregrante
 
 export default Main;

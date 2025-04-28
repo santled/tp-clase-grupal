@@ -10,5 +10,5 @@ const Home = (props) => {
     </div>
   );
 };
-
+// Se reciben los props, los destructuramos y los reenviamos como props individuales a Main.jsx
 export default Home;
